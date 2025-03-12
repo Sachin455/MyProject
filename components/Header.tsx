@@ -13,11 +13,11 @@ const Header = () => {
   return (
     <div className="flex justify-between items-center min-h-12 w-full px-6">
         <div className="gap-6 flex items-center">
-            <h1 className="text-3xl font-semibold">RealtyNest</h1>
+            <h1 className="text-3xl font-semibold">DEMO</h1>
             <Input placeholder="Search for properties" className="w-[200px]"/>
             <Select>
                 <SelectTrigger>
-                    <SelectValue placeholder="Buy"/>
+                    <SelectValue placeholder="Option1"/>
                 </SelectTrigger>
                 <SelectContent>
                     <SelectItem value="Buy">Buy</SelectItem>
@@ -28,7 +28,7 @@ const Header = () => {
 
             <Select>
                 <SelectTrigger>
-                    <SelectValue placeholder="Bedroom"/>
+                    <SelectValue placeholder="Option2"/>
                 </SelectTrigger>
                 <SelectContent>
                     <SelectItem value="1 bedroom">1 Bedroom</SelectItem>
@@ -39,7 +39,7 @@ const Header = () => {
 
             <Select>
                 <SelectTrigger>
-                    <SelectValue placeholder="Home Type"/>
+                    <SelectValue placeholder="Option3"/>
                 </SelectTrigger>
                 <SelectContent>
                     <SelectItem value="house">House</SelectItem>
